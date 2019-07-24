@@ -1,0 +1,21 @@
+.UserPicture {
+    cursor: pointer;
+    img {
+        border-radius:50%;
+        background-color:white;
+        border:1px solid #ccc;
+    }
+    
+    .QuestionMark{
+        position:relative;
+        height:60px;
+        width:60px;
+        font-size:50px;
+        background-color:white;
+        border-radius: 50%;
+        span{
+            position: relative;
+            left:16px;
+        }
+    }
+}

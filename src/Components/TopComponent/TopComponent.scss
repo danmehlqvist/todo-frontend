@@ -1,0 +1,33 @@
+.TopComponent {
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+
+    .Loading {
+        font-size: 30px;
+        color:#666;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation-name: fade-in-fade-out;
+        animation-duration: 0.8s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes fade-in-fade-out {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.5;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+}
